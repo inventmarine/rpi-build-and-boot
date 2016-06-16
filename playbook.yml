@@ -4,9 +4,9 @@
   sudo: yes
   vars:
     of_version: of_v0.9.0_linuxarmv7l_release
-    image: 2015-09-24-raspbian-jessie.img
+    image: /Users/franklin/virtualbox-images/2016-05-27-raspbian-jessie-lite.img
     offset_boot: 4194304
-    offset_root: 62914560
+    offset_root: 70254592    
   tasks:
     - apt: upgrade=dist update_cache=yes
     - command: mkdir -p /opt/raspberrypi creates=/opt/raspberrypi
