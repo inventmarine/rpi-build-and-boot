@@ -4,14 +4,14 @@
 This is a fork of https://github.com/twobitcircus/rpi-build-and-boot with modifications to provide a Virtualbox VM, to cross compile 
  nodejs native modules for ARM processor, more specifically for the RaspberryPI.
  
- #Note: Read the original project before you decide if this fork is for you.
+*Note*: Read the original project before you decide if this fork is for you.
  
 
-Differences from the orignal project:
-1: Use 2016-05-27-raspbian-jessie-lite.img (headless) rather than  2015-09-24-raspbian-jessie.img 
-2: Remove references to OpenFrameworks.
-3: Add folder serialport-node-test with aa sample nodejs app, that depends on serialport, which can be used to test node-gyp cross compilation.
-4: Add CC and CXX environment variables, to allow node-gyp to be cross compiled.
+## Differences from the orignal project:
+- Use 2016-05-27-raspbian-jessie-lite.img (headless) rather than  2015-09-24-raspbian-jessie.img 
+- Remove references to OpenFrameworks.
+- Add folder serialport-node-test with aa sample nodejs app, that depends on serialport, which can be used to test node-gyp cross compilation.
+- Add CC and CXX environment variables, to allow node-gyp to be cross compiled.
 
 -----------------------------
 
